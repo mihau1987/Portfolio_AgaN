@@ -2,6 +2,12 @@ body {
   font-family: 'IBM Plex Mono';
 }
 
+ul,
+body {
+  margin: 0;
+  padding: 0;
+}
+
 h1,
 h2,
 .skills-list {
@@ -11,4 +17,30 @@ h2,
 img {
   /* this is limiting the width of the image, so it talkes 100% width of the parent maximum */
   max-width: 100%;
+}
+
+nav {
+  background-color: #DBEBF4;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0 15px;
+  padding: 0;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+nav ul {
+  margin: 0 auto;
+  text-align: center;
+  padding: 30px;
+}
+
+header {
+  position: relative;
+  top: 110px;
 }
