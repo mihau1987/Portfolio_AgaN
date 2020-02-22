@@ -1,5 +1,6 @@
 body {
   font-family: 'IBM Plex Mono';
+  font-size: 15px;
 }
 
 ul,
@@ -32,6 +33,7 @@ nav ul li {
   padding: 0;
   text-transform: uppercase;
   letter-spacing: 1px;
+  font-size: 14px;
 }
 
 nav ul {
@@ -43,4 +45,29 @@ nav ul {
 header {
   position: relative;
   top: 110px;
+  margin-bottom: 220px;
+}
+
+h1 {
+  font-size: 100px;
+  line-height: 130px;
+}
+
+ul li {
+  list-style: none;
+  margin: 10px 0;
+}
+
+.button {
+  border: 1px solid black;
+  text-decoration: none;
+  color: black;
+  padding: 10px 30px;
+  margin-top: 40px;
+  display: inline-block;
+  border-radius: 20px;
+}
+
+figcaption {
+  font-size: 10px;
 }
