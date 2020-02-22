@@ -7,3 +7,8 @@ h2,
 .skills-list {
   font-family: 'Inknut Antiqua';
 }
+
+img {
+  /* this is limiting the width of the image, so it talkes 100% width of the parent maximum */
+  max-width: 100%;
+}
