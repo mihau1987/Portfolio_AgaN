@@ -44,8 +44,12 @@ nav ul {
 
 header {
   position: relative;
-  top: 110px;
+  top: 70px;
   margin-bottom: 220px;
+  background: url('../img/background.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: -145px;
 }
 
 h1 {
@@ -70,4 +74,10 @@ ul li {
 
 figcaption {
   font-size: 10px;
+}
+
+.intro-image {
+  box-shadow: 1px 2px 30px rgba(0, 0, 0, 0.2);
+  margin-top: 30px;
+  margin-bottom: 10px;
 }
