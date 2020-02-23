@@ -48,6 +48,10 @@ nav li a {
   color: black;
 }
 
+nav li a:hover {
+  text-decoration: underline;
+}
+
 nav ul {
   margin: 0 auto;
   text-align: center;
@@ -96,6 +100,12 @@ ul li {
   margin-top: 40px;
   display: inline-block;
   border-radius: 20px;
+  transition: background 0.5s ease-in-out, color 0.5s ease-in-out;
+}
+
+.button:hover {
+  background: black;
+  color: white;
 }
 
 figcaption {
